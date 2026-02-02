@@ -1,0 +1,28 @@
+{
+  "model": "gemini-3-pro-image-preview",
+  "input_tokens": 2847,
+  "output_tokens": 1120,
+  "total_tokens": 3967,
+  "input_images": 3,
+  "output_images": 1,
+  "output_resolution": "2K",
+  "cost_usd": 0.134,
+  "usageMetadata": {
+    "promptTokenCount": 2847,
+    "candidatesTokenCount": 1120,
+    "totalTokenCount": 3967,
+    "promptTokensDetails": {
+      "textTokens": 847,
+      "imageTokens": 2000
+    },
+    "candidatesTokensDetails": {
+      "textTokens": 0,
+      "imageTokens": 1120
+    }
+  },
+  "breakdown": {
+    "input_cost": 0.00355875,
+    "output_cost": 0.1344,
+    "total_cost": 0.13795875
+  }
+}

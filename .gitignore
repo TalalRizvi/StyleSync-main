@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Environment and secrets (API keys, etc.)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cloudflare Wrangler (local state, D1 DB files)
+.wrangler/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Vite
+.vite/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: backup and scratch files
+*.backup
+*.bak
+Untitled
+
+# Test / coverage (if added later)
+coverage/
+.nyc_output/
